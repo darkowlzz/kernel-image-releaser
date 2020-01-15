@@ -1,4 +1,4 @@
-KERNEL_VERSION ?= 4.19.47
+KERNEL_VERSION ?= 5.3
 KERNEL_EXTRA ?= 
 
 all: build
