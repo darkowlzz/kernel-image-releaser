@@ -6,5 +6,5 @@ install:
 - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
 
 script:
-- make
+- GOARCH=arm64 REGISTRY=darkowlzz make build-4.19.97
 - make push
